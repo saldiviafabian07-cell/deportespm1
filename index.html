@@ -1,5 +1,24 @@
 <!doctype html>
 <html lang="es-CL">
+  <style>
+  .squad-group:nth-child(4) .player-photo img {
+    display: none;
+  }
+
+  .squad-group:nth-child(4) .player-photo {
+    min-height: 180px;
+    display: grid;
+    place-items: center;
+    background: #eaf2f7;
+  }
+
+  .squad-group:nth-child(4) .player-photo::before {
+    content: "DPM";
+    color: #071d39;
+    font-weight: 900;
+    font-size: 1.4rem;
+  }
+</style>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
